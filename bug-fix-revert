@@ -1,11 +1,28 @@
-curl https://api.github.com/repos/ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub/pulls/3
+$ curl https://api.github.com/repos/npquan05-cmyk/github-final-project/pulls
 
-{
-  "number": 3,
-  "state": "open",
-  "head": {
-    "repo": {
-      "full_name": "npquan05-cmyk/mcino-Introduction-to-Git-and-GitHub"
+[
+  {
+    "url": "https://api.github.com/repos/npquan05-cmyk/github-final-project/pulls/1",
+    "id": 123456789,
+    "number": 1,
+    "state": "open",
+    "title": "Bug fix revert",
+    "head": {
+      "repo": {
+        "name": "github-final-project",
+        "fork": true,
+        "owner": {
+          "login": "npquan05-cmyk"
+        }
+      }
+    },
+    "base": {
+      "repo": {
+        "name": "mcino-Introduction-to-Git-and-GitHub",
+        "owner": {
+          "login": "ibm-developer-skills-network"
+        }
+      }
     }
   }
-}
+]
