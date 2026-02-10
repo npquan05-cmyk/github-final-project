@@ -1,11 +1,14 @@
-$ curl https://api.github.com/repos/npquan05-cmyk/github-final-project
+$ curl https://api.github.com/repos/USERNAME/github-final-project
 
 {
+  "id": 987654321,
   "name": "github-final-project",
-  "full_name": "npquan05-cmyk/github-final-project",
+  "full_name": "USERNAME/github-final-project",
   "fork": true,
   "parent": {
+    "name": "mcino-Introduction-to-Git-and-GitHub",
     "full_name": "ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub"
   }
 }
+
 
