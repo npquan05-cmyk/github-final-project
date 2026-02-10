@@ -1,0 +1,3 @@
+$ git branch -vv
+* main          a1b2c3d [origin/main] Initial commit
+  bug-fix-typo  e4f5g6h [origin/bug-fix-typo] Fix typo in README
